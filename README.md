@@ -1,262 +1,126 @@
-
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!--                     ENGINEERING LOG — SANJAY G. M.                    -->
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-
 <div align="center">
 
-```
-╔══════════════════════════════════════════════════════════════╗
-║                                                              ║
-║   SANJAY  G. M.                                              ║
-║   Software Engineer  ·  SDE                                  ║
-║                                                              ║
-║   Building — AI systems · Backend services · Developer tools ║
-║                                                              ║
-╚══════════════════════════════════════════════════════════════╝
-```
+# 👨‍💻 Sanjay G. M. 
 
-I build backend services, full-stack applications, and AI-powered developer tools — focused on solving practical engineering problems.
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&lines=Software+Development+Engineer;Building+AI+Systems+%26+Backend+Services;500%2B+LeetCode+Problems+Solved" alt="Typing SVG" /></a>
 
-[![GitHub](https://img.shields.io/badge/GitHub-gms26-181717?style=flat&logo=github)](https://github.com/gms26)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin)](YOUR_LINKEDIN_URL)
-[![LeetCode](https://img.shields.io/badge/LeetCode-500%2B_Solved-FFA116?style=flat&logo=leetcode&logoColor=white)](YOUR_LEETCODE_URL)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-4285F4?style=flat&logo=googlechrome&logoColor=white)](YOUR_PORTFOLIO_URL)
+<p align="center">
+  <a href="mailto:YOUR_EMAIL"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="YOUR_LINKEDIN_URL"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="YOUR_LEETCODE_URL"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode" /></a>
+  <a href="YOUR_PORTFOLIO_URL"><img src="https://img.shields.io/badge/Portfolio-2563EB?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio" /></a>
+</p>
+
+I build scalable backend services, full-stack applications, and AI-powered developer tools, with a strong focus on practical problem solving and robust system architecture.
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
 
 </div>
 
----
+## 🛠️ Tech Stack & Tools
 
-## ⚙️ System Status
-
-```
- ┌─────────────────────────────────────────────────────┐
- │  [ BUILDING  ]  AI GitHub Pull Request Reviewer     │
- │  [ SOLVED   ]  500+ DSA Problems on LeetCode        │
- │  [ LEARNING ]  System Design · Cloud · DevOps       │
- │  [ EXPLORING]  Distributed Systems · AI Infra       │
- └─────────────────────────────────────────────────────┘
-```
-
----
-
-## 🛠️ Engineering Stack
-
-| Layer | Technologies |
-|-------|-------------|
-| **Languages** | `Java` · `JavaScript` · `Python`  |
-| **Backend** | `Spring Boot` · `Node.js` · `Express.js` · `REST APIs` |
-| **Frontend** | `React` · `Vite` · `HTML` · `CSS` |
-| **Databases** | `PostgreSQL` · `MongoDB` · `Supabase` |
-| **AI / LLM** | `Google Gemini` · `LLM API Integration` · `AI App Development` |
-| **Tools** | `Git` · `GitHub` · `Docker` |
-| **Exploring** | `System Design` · `Cloud` · `DevOps` · `Distributed Systems` |
-
----
-
-## 🏗️ Flagship System — AI GitHub Pull Request Reviewer
-
-> An automated code review system that analyzes pull request diffs using AI and posts structured review comments directly on GitHub.
-
-**This is not a wrapper around an AI API.** It's a complete engineering system with authentication, webhook infrastructure, external API integration, and structured response handling.
-
-```
-┌──────────────────────────────────────────────────────────────────┐
-│                        SYSTEM ARCHITECTURE                       │
-├──────────────────────────────────────────────────────────────────┤
-│                                                                  │
-│   Developer creates Pull Request                                 │
-│         │                                                        │
-│         ▼                                                        │
-│   GitHub Webhook ──► Spring Boot Backend                         │
-│                          │                                       │
-│                          ├──► Webhook Signature Verification     │
-│                          │        (HMAC validation)              │
-│                          │                                       │
-│                          ├──► GitHub API                         │
-│                          │        Fetch PR Diff + Context        │
-│                          │        (with pagination handling)     │
-│                          │                                       │
-│                          ├──► Context Builder                    │
-│                          │                                       │
-│                          ├──► Gemini API                         │
-│                          │        Structured Review JSON         │
-│                          │                                       │
-│                          ├──► Parse + Validate Response          │
-│                          │        (fail-safe: skip on bad parse) │
-│                          │                                       │
-│                          └──► GitHub API                         │
-│                                  Post Review Comments on PR      │
-│                                                                  │
-└──────────────────────────────────────────────────────────────────┘
-```
-
-**Engineering depth:**
-
-- **Auth:** GitHub OAuth2 authentication, repository ownership validation
-- **Webhooks:** Webhook registration, HMAC signature verification, state tracking (`webhookEnabled` + `webhookId`)
-- **APIs:** GitHub REST API integration with pagination, Gemini API with structured output
-- **Data:** PostgreSQL persistence, Flyway migrations, Spring Data JPA
-- **Resilience:** Retry mechanisms, error handling, external API resilience — if Gemini returns an unrecoverable response, the system logs and skips rather than posting garbage
-- **Stack:** Java · Spring Boot · Spring Security · Actuator
-
-<p>
-  <a href="https://github.com/gms26/PR-Reviewer">
-    <img src="https://img.shields.io/badge/→_View_Repository-PR--Reviewer-2ea44f?style=for-the-badge" alt="PR Reviewer Repo" />
-  </a>
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring&logoColor=white" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <br />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" />
+  <img src="https://img.shields.io/badge/Google_Gemini-8E75B2?style=for-the-badge&logo=googlebard&logoColor=white" />
+  <br />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
 </p>
 
----
+<div align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
+</div>
+
+## 🚀 Flagship System: AI GitHub PR Reviewer
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=gms26&repo=PR-Reviewer&theme=radical" alt="PR Reviewer Repo" />
+</div>
+
+An enterprise-grade automated code review system. **Not just an API wrapper**, but a fully integrated backend architecture.
+
+- **Infrastructure:** Spring Boot Backend, GitHub OAuth2, Webhook registration, HMAC signature verification.
+- **Workflow:** Automatically catches PR events, fetches paginated diffs via GitHub REST API, constructs context, and generates structured JSON reviews using the **Gemini API**.
+- **Resilience:** Built with Flyway migrations, PostgreSQL persistence, and fail-safe parsing (skips on invalid AI output rather than crashing).
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
+</div>
 
 ## 📦 Selected Builds
 
-### SmartForecast AI
-> **Problem:** Time-series data is hard to understand without the right forecasting model.  
-> **Solution:** A dashboard that lets users upload CSV data, compare forecasting models (Moving Average, ARIMA, Holt-Winters), and get AI-generated explanations.
+<table>
+  <tr>
+    <td width="50%">
+      <h3>📈 SmartForecast AI</h3>
+      <p>Time-series forecasting dashboard. Upload CSVs, compare ARIMA/Holt-Winters models, and get AI-generated insights.</p>
+      <p><i>React, Node.js, Recharts, AI APIs</i></p>
+      <a href="https://github.com/gms26/Forcasting">View Repository</a>
+    </td>
+    <td width="50%">
+      <h3>🌐 Smart Code Translator</h3>
+      <p>AI-powered platform to instantly translate code between programming languages with Monaco Editor integration.</p>
+      <p><i>React, Node.js, Gemini API, OAuth</i></p>
+      <a href="https://github.com/gms26/Smart-Code-Translator">View Repository</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3>🏙️ CivicPulse</h3>
+      <p>Civic issue reporting platform. Image-based reporting, automated classification, and authority routing.</p>
+      <p><i>React, Node.js, MongoDB</i></p>
+      <a href="https://github.com/gms26/CivicPulse">View Repository</a>
+    </td>
+    <td width="50%">
+      <h3>🚜 FarmEquipConnect</h3>
+      <p>Agricultural equipment rental platform enabling farmers to discover and rent equipment affordably.</p>
+      <p><i>Full Stack, REST APIs, MongoDB</i></p>
+      <a href="https://github.com/gms26/FarmEquipConnect">View Repository</a>
+    </td>
+  </tr>
+</table>
 
-`React` · `Vite` · `Node.js` · `Express.js` · `Recharts` · `AI APIs`
+<div align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
+</div>
 
-**Key features:** CSV upload → data visualization → model comparison → forecast rendering → AI explanations
+## 📊 GitHub & Problem Solving Stats
 
-[![Repository](https://img.shields.io/badge/Repository-Forcasting-blue?style=flat&logo=github)](https://github.com/gms26/Forcasting)
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=gms26&show_icons=true&theme=radical&count_private=true" alt="GitHub Stats" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=gms26&theme=radical" alt="GitHub Streak" width="48%" />
+</div>
 
----
+<br>
 
-### Smart Code Translator
-> **Problem:** Developers often need to translate code across languages quickly.  
-> **Solution:** An AI-powered code translation platform with Monaco Editor, Google OAuth, and real-time translation via Gemini.
+<div align="center">
+  <h3>🧠 500+ LeetCode Problems Solved</h3>
+  <p>Consistent practice across Data Structures & Algorithms:</p>
+  <code>Arrays</code> <code>Strings</code> <code>Hashing</code> <code>Two Pointers</code> <code>Sliding Window</code> <code>Binary Search</code> 
+  <br>
+  <code>Trees</code> <code>Graphs</code> <code>Dynamic Programming</code> <code>Backtracking</code> <code>Greedy</code>
+</div>
 
-`React` · `Vite` · `Node.js` · `Google Gemini` · `Google OAuth`
-
-**Key features:** Code editor with syntax highlighting → AI-powered translation → authentication → backend API integration
-
-[![Repository](https://img.shields.io/badge/Repository-Smart--Code--Translator-blue?style=flat&logo=github)](https://github.com/gms26/Smart-Code-Translator)
-
----
-
-### CivicPulse
-> **Problem:** Citizens lack a structured way to report infrastructure issues (road damage, water leakage, street-light failures).  
-> **Solution:** A civic issue reporting platform with image-based reporting, issue classification, priority assignment, and authority notification.
-
-`React` · `Node.js` · `Express.js` · `MongoDB`
-
-**Key features:** Issue submission with photos → classification & prioritization → authority routing → issue tracking
-
-[![Repository](https://img.shields.io/badge/Repository-CivicPulse-blue?style=flat&logo=github)](https://github.com/gms26/CivicPulse)
-
----
-
-### FarmEquipConnect
-> **Problem:** Farmers need accessible, affordable equipment without ownership costs.  
-> **Solution:** An agricultural equipment rental platform with equipment discovery, rental workflow, and backend APIs.
-
-**Key features:** Full-stack application → equipment catalog → rental management → database integration
-
-[![Repository](https://img.shields.io/badge/Repository-FarmEquipConnect-blue?style=flat&logo=github)](https://github.com/gms26/FarmEquipConnect)
-
----
-
-### Personal Portfolio
-> A portfolio with sections for About, Skills, Projects, Achievements, Certificates, Resume, Contact — with admin functionality for content management.
-
-`React / Next.js` · `JavaScript` · `Node.js` · `Express.js` · `MongoDB / PostgreSQL` · `Cloudinary`
-
-[![Repository](https://img.shields.io/badge/Repository-Smart__portfolio-blue?style=flat&logo=github)](https://github.com/gms26/Smart_portfolio)
-
----
-
-## 🧠 Problem Solving — 500+ LeetCode Problems
-
-```
- ┌───────────────────────────────────────────────────────────┐
- │  TOPIC COVERAGE                                           │
- ├───────────────────────────────────────────────────────────┤
- │                                                           │
- │  Arrays ████████████  Strings █████████                   │
- │  Hashing ████████     Two Pointers ████████               │
- │  Sliding Window ████  Binary Search ███████               │
- │  Linked Lists ██████  Stack / Queue ██████                │
- │  Trees ████████████   Graphs ████████                     │
- │  Recursion ████████   Backtracking ██████                 │
- │  Dynamic Prog ██████  Greedy █████████                    │
- │                                                           │
- └───────────────────────────────────────────────────────────┘
-```
-
-Consistent daily practice. No shortcuts.
-
-[![DSA Repository](https://img.shields.io/badge/Repository-DSA-blue?style=flat&logo=github)](https://github.com/gms26/DSA)
-[![LeetCode](https://img.shields.io/badge/LeetCode-Profile-FFA116?style=flat&logo=leetcode&logoColor=white)](YOUR_LEETCODE_URL)
-
----
-
-## 🔬 How I Think
-
-```
-Problem → Understand → Design → Implement → Test → Measure → Improve
-                ↑                                          │
-                └──────────────────────────────────────────┘
-```
-
-I start by understanding the problem deeply before writing any code. Design comes before implementation. Testing and measurement feed back into better design. Every iteration should produce something measurably better, not just different.
-
----
+<div align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
+</div>
 
 ## 🧭 Engineering Philosophy
 
-> **Build → Break → Understand → Improve**
+> **Problem → Understand → Design → Implement → Test → Measure → Improve**
 
 Write it. Break it on purpose. Understand *why* it broke. Then build it better. Good engineering comes from understanding failure modes, not just the happy path.
 
----
-
-## 📚 Education & Experience
-
-**B.Tech — Information Technology**  
-Dr. N.G.P. Institute of Technology, Coimbatore · CGPA: 7.74 · Class of 2027
-
-**AI Intern — Gateway Software Solutions**  
-Crop suitability prediction · AI/LLM API integration · Backend/application development
-
-**Achievements:**
-- 500+ LeetCode problems solved
-- NPTEL IoT course completion
-- State-level Buildathon participation
-- Multiple full-stack and AI projects shipped
-
----
-
-## 📡 Currently
-
-```
- Building   →  AI GitHub Pull Request Reviewer
- Learning   →  System Design · Cloud · DevOps · Distributed Systems
- Solving    →  Data Structures & Algorithms (daily)
-```
-
----
-
-## 🔗 Connect
-
-| Platform | Link |
-|----------|------|
-| **GitHub** | [github.com/gms26](https://github.com/gms26) |
-| **LinkedIn** | [YOUR_LINKEDIN_URL](YOUR_LINKEDIN_URL) |
-| **LeetCode** | [YOUR_LEETCODE_URL](YOUR_LEETCODE_URL) |
-| **Portfolio** | [YOUR_PORTFOLIO_URL](YOUR_PORTFOLIO_URL) |
-| **Email** | YOUR_EMAIL |
-
----
-
 <div align="center">
-
-```
-└─ EOF ─ Engineering Log ─ Sanjay G. M. ─ gms26 ─┘
-```
-
-<!-- 
-  This README is an engineering document, not a template.
-  Every section exists because it communicates something useful.
--->
-
+  <br>
+  <i>"Build systems, not just features."</i>
+  <br><br>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=3B82F6&height=100&section=footer" width="100%" />
 </div>
