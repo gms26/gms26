@@ -1,126 +1,67 @@
 <div align="center">
-
-# 👨‍💻 Sanjay G. M. 
-
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&lines=Software+Development+Engineer;Building+AI+Systems+%26+Backend+Services;500%2B+LeetCode+Problems+Solved" alt="Typing SVG" /></a>
-
-<p align="center">
-  <a href="mailto:YOUR_EMAIL"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="YOUR_LINKEDIN_URL"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="YOUR_LEETCODE_URL"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode" /></a>
-  <a href="YOUR_PORTFOLIO_URL"><img src="https://img.shields.io/badge/Portfolio-2563EB?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio" /></a>
-</p>
-
-I build scalable backend services, full-stack applications, and AI-powered developer tools, with a strong focus on practical problem solving and robust system architecture.
-
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
-
+  <h1>Sanjay G. M.</h1>
+  <p><b>Software Engineer | Backend & Full-Stack Developer</b></p>
+  
+  <p>
+    <a href="YOUR_LINKEDIN_URL"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+    <a href="YOUR_PORTFOLIO_URL"><img src="https://img.shields.io/badge/Portfolio-2563EB?style=flat-square&logo=google-chrome&logoColor=white" alt="Portfolio" /></a>
+    <a href="YOUR_LEETCODE_URL"><img src="https://img.shields.io/badge/LeetCode-500%2B_Solved-FFA116?style=flat-square&logo=leetcode&logoColor=white" alt="LeetCode" /></a>
+    <a href="mailto:YOUR_EMAIL"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
+  </p>
 </div>
 
-## 🛠️ Tech Stack & Tools
+<br />
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
-  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring&logoColor=white" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <br />
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" />
-  <img src="https://img.shields.io/badge/Google_Gemini-8E75B2?style=for-the-badge&logo=googlebard&logoColor=white" />
-  <br />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-</p>
+I am a Software Engineer focused on building scalable backend systems, full-stack applications, and AI-powered tools. I enjoy solving complex engineering problems and delivering high-quality, maintainable software. 
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
-</div>
+---
 
-## 🚀 Flagship System: AI GitHub PR Reviewer
+### 💻 Technical Expertise
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=gms26&repo=PR-Reviewer&theme=radical" alt="PR Reviewer Repo" />
-</div>
+- **Languages:** Java, JavaScript, Python
+- **Backend:** Spring Boot, Node.js, Express.js, RESTful APIs
+- **Frontend:** React, Vite, HTML5, CSS3
+- **Databases:** PostgreSQL, MongoDB, Supabase
+- **Cloud & Tools:** Docker, Git, GitHub Actions
+- **AI & Integrations:** Google Gemini API, LLM integration, AI-powered app development
 
-An enterprise-grade automated code review system. **Not just an API wrapper**, but a fully integrated backend architecture.
+---
 
-- **Infrastructure:** Spring Boot Backend, GitHub OAuth2, Webhook registration, HMAC signature verification.
-- **Workflow:** Automatically catches PR events, fetches paginated diffs via GitHub REST API, constructs context, and generates structured JSON reviews using the **Gemini API**.
-- **Resilience:** Built with Flyway migrations, PostgreSQL persistence, and fail-safe parsing (skips on invalid AI output rather than crashing).
+### 🚀 Featured Projects
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
-</div>
+#### [AI GitHub PR Reviewer](https://github.com/gms26/PR-Reviewer)
+An enterprise-grade automated code review system that integrates directly with GitHub to analyze pull requests and provide structured feedback.
+- **Architecture:** Built with **Spring Boot** and **PostgreSQL**. Uses **GitHub Webhooks** and **OAuth2** for event-driven architecture.
+- **Impact:** Automates code review workflows by dynamically fetching PR diffs, generating context, and posting insights using the **Gemini API**. Implements fail-safe mechanisms for API resilience.
 
-## 📦 Selected Builds
+#### [SmartForecast AI](https://github.com/gms26/Forcasting)
+A data analytics dashboard for time-series forecasting and visualization.
+- **Tech Stack:** React, Node.js, Express.js, Recharts.
+- **Impact:** Enables users to upload CSV datasets, compare forecasting models (ARIMA, Holt-Winters), and receive AI-generated insights on data trends.
 
-<table>
-  <tr>
-    <td width="50%">
-      <h3>📈 SmartForecast AI</h3>
-      <p>Time-series forecasting dashboard. Upload CSVs, compare ARIMA/Holt-Winters models, and get AI-generated insights.</p>
-      <p><i>React, Node.js, Recharts, AI APIs</i></p>
-      <a href="https://github.com/gms26/Forcasting">View Repository</a>
-    </td>
-    <td width="50%">
-      <h3>🌐 Smart Code Translator</h3>
-      <p>AI-powered platform to instantly translate code between programming languages with Monaco Editor integration.</p>
-      <p><i>React, Node.js, Gemini API, OAuth</i></p>
-      <a href="https://github.com/gms26/Smart-Code-Translator">View Repository</a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h3>🏙️ CivicPulse</h3>
-      <p>Civic issue reporting platform. Image-based reporting, automated classification, and authority routing.</p>
-      <p><i>React, Node.js, MongoDB</i></p>
-      <a href="https://github.com/gms26/CivicPulse">View Repository</a>
-    </td>
-    <td width="50%">
-      <h3>🚜 FarmEquipConnect</h3>
-      <p>Agricultural equipment rental platform enabling farmers to discover and rent equipment affordably.</p>
-      <p><i>Full Stack, REST APIs, MongoDB</i></p>
-      <a href="https://github.com/gms26/FarmEquipConnect">View Repository</a>
-    </td>
-  </tr>
-</table>
+#### [CivicPulse](https://github.com/gms26/CivicPulse)
+A civic issue reporting platform streamlining communication between citizens and authorities.
+- **Tech Stack:** React, Node.js, MongoDB.
+- **Impact:** Facilitates image-based reporting of infrastructure issues with automated classification and priority-based routing.
+
+#### [Smart Code Translator](https://github.com/gms26/Smart-Code-Translator)
+A real-time, AI-powered code translation tool supporting multiple programming languages.
+- **Tech Stack:** React, Node.js, Gemini API, Monaco Editor, Google OAuth.
+- **Impact:** Provides a seamless developer experience with syntax highlighting and instant, context-aware code translation.
+
+---
+
+### 🎓 Education & Achievements
+
+- **B.Tech in Information Technology** (Class of 2027) | *Dr. N.G.P. Institute of Technology, Coimbatore*
+  - CGPA: 7.74
+- **AI Intern** | *Gateway Software Solutions*
+  - Developed backend solutions and integrated LLM APIs for crop suitability prediction applications.
+- **Problem Solving:** Consistently practice Data Structures & Algorithms, with **500+ problems solved on LeetCode**.
+- **Certifications:** NPTEL IoT Course Completion.
+
+<br />
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
-</div>
-
-## 📊 GitHub & Problem Solving Stats
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=gms26&show_icons=true&theme=radical&count_private=true" alt="GitHub Stats" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=gms26&theme=radical" alt="GitHub Streak" width="48%" />
-</div>
-
-<br>
-
-<div align="center">
-  <h3>🧠 500+ LeetCode Problems Solved</h3>
-  <p>Consistent practice across Data Structures & Algorithms:</p>
-  <code>Arrays</code> <code>Strings</code> <code>Hashing</code> <code>Two Pointers</code> <code>Sliding Window</code> <code>Binary Search</code> 
-  <br>
-  <code>Trees</code> <code>Graphs</code> <code>Dynamic Programming</code> <code>Backtracking</code> <code>Greedy</code>
-</div>
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
-</div>
-
-## 🧭 Engineering Philosophy
-
-> **Problem → Understand → Design → Implement → Test → Measure → Improve**
-
-Write it. Break it on purpose. Understand *why* it broke. Then build it better. Good engineering comes from understanding failure modes, not just the happy path.
-
-<div align="center">
-  <br>
-  <i>"Build systems, not just features."</i>
-  <br><br>
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=3B82F6&height=100&section=footer" width="100%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=gms26&show_icons=true&theme=transparent&hide_border=true&title_color=3B82F6&icon_color=3B82F6" alt="GitHub Stats" width="45%" />
 </div>
